@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name orch)(type KiCad)(uri ${KIPRJMOD}/orch.pretty)(options "")(descr ""))
+)
