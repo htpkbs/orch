@@ -1,3 +1,5 @@
+## Overview
+
 The orch is a keyboard PCB.
 
 It has:
@@ -10,3 +12,13 @@ It has:
 * A function key column
 
 I know the PCB routing sucks; I was in a rush.
+
+# PCB Renders
+
+![PCB front]!(assets/front.png)
+
+![PCB back]!(assets/back.png)
+
+# Key Layout
+
+![Key layout]!(assets/layout.png)
