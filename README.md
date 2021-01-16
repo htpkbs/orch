@@ -10,6 +10,7 @@ It has:
 * 19mm switch spacing
 * An arrow key cluster
 * A function key column
+* USB-C
 
 I know the PCB routing sucks; I was in a rush.
 
