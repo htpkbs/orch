@@ -15,10 +15,10 @@ I know the PCB routing sucks; I was in a rush.
 
 # PCB Renders
 
-![PCB front]!(assets/front.png)
+![PCB front](assets/front.png)
 
-![PCB back]!(assets/back.png)
+![PCB back](assets/back.png)
 
 # Key Layout
 
-![Key layout]!(assets/layout.png)
+![Key layout](assets/layout.png)
