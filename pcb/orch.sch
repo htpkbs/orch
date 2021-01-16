@@ -2213,16 +2213,15 @@ Col9
 Text Label 2350 3100 0    50   ~ 0
 Col10
 Text Label 2350 3000 0    50   ~ 0
-Col13
+Col11
 Text Label 2350 2900 0    50   ~ 0
 Col12
 Text Label 2350 2800 0    50   ~ 0
-Col11
+Col13
 Text Label 2350 2300 0    50   ~ 0
 Col14
 Text Label 2350 4000 0    50   ~ 0
 Col15
-NoConn ~ 2350 4100
 NoConn ~ 2350 4200
 NoConn ~ 2350 4300
 NoConn ~ 2350 4400
@@ -2302,4 +2301,121 @@ Wire Wire Line
 Wire Wire Line
 	8950 9300 8950 11100
 Connection ~ 8950 9300
+$Comp
+L LED:SK6812 D60
+U 1 1 60043709
+P 5900 4400
+F 0 "D60" H 6244 4446 50  0000 L CNN
+F 1 "SK6812" H 6244 4355 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 5950 4100 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 6000 4025 50  0001 L TNN
+	1    5900 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D59
+U 1 1 6004455E
+P 4850 4400
+F 0 "D59" H 5194 4446 50  0000 L CNN
+F 1 "SK6812" H 5194 4355 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 4900 4100 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 4950 4025 50  0001 L TNN
+	1    4850 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D58
+U 1 1 600451BB
+P 3800 4400
+F 0 "D58" H 4144 4446 50  0000 L CNN
+F 1 "SK6812" H 4144 4355 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 3850 4100 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3900 4025 50  0001 L TNN
+	1    3800 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D61
+U 1 1 600459D4
+P 6950 4400
+F 0 "D61" H 7294 4446 50  0000 L CNN
+F 1 "SK6812" H 7294 4355 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 7000 4100 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 7050 4025 50  0001 L TNN
+	1    6950 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D62
+U 1 1 60047365
+P 8000 4400
+F 0 "D62" H 8344 4446 50  0000 L CNN
+F 1 "SK6812" H 8344 4355 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 8050 4100 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 8100 4025 50  0001 L TNN
+	1    8000 4400
+	1    0    0    -1  
+$EndComp
+Text Label 2350 4100 0    50   ~ 0
+RGB
+$Comp
+L power:+5V #PWR02
+U 1 1 6005462B
+P 3800 4000
+F 0 "#PWR02" H 3800 3850 50  0001 C CNN
+F 1 "+5V" H 3815 4173 50  0000 C CNN
+F 2 "" H 3800 4000 50  0001 C CNN
+F 3 "" H 3800 4000 50  0001 C CNN
+	1    3800 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 4100 3800 4000
+Wire Wire Line
+	3800 4100 4850 4100
+Connection ~ 3800 4100
+Connection ~ 4850 4100
+Wire Wire Line
+	4850 4100 5900 4100
+Connection ~ 5900 4100
+Wire Wire Line
+	5900 4100 6950 4100
+Connection ~ 6950 4100
+Wire Wire Line
+	6950 4100 8000 4100
+$Comp
+L power:GND #PWR03
+U 1 1 6006B048
+P 3800 4800
+F 0 "#PWR03" H 3800 4550 50  0001 C CNN
+F 1 "GND" H 3805 4627 50  0000 C CNN
+F 2 "" H 3800 4800 50  0001 C CNN
+F 3 "" H 3800 4800 50  0001 C CNN
+	1    3800 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 4700 3800 4800
+Wire Wire Line
+	3800 4700 4850 4700
+Connection ~ 3800 4700
+Connection ~ 4850 4700
+Wire Wire Line
+	4850 4700 5900 4700
+Connection ~ 5900 4700
+Wire Wire Line
+	5900 4700 6950 4700
+Connection ~ 6950 4700
+Wire Wire Line
+	6950 4700 8000 4700
+Text Label 3500 4400 2    50   ~ 0
+RGB
+Wire Wire Line
+	4100 4400 4550 4400
+Wire Wire Line
+	5150 4400 5600 4400
+Wire Wire Line
+	6200 4400 6650 4400
+Wire Wire Line
+	7250 4400 7700 4400
 $EndSCHEMATC
