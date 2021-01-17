@@ -9,7 +9,7 @@ Date ""
 Rev "v0.0.1"
 Comp ""
 Comment1 ""
-Comment2 "https://github.com/brianmutualaid/orch/blob/master/LICENSE"
+Comment2 "https://github.com/htpkbs/orch/blob/main/LICENSE"
 Comment3 "License: BSD 2-Clause"
 Comment4 "brian@mutualaid.info"
 $EndDescr
