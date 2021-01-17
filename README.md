@@ -26,6 +26,10 @@ The key layout might look something like this. (Thanks to [Keyboard Layout Edito
 
 ![PCB back](assets/back.png)
 
+# Schematic
+
+[There is a PDF of the schematic here](assets/schematic.pdf).
+
 # Sublicenses
 
 * Thank you to [coseyfannitutti](https://github.com/coseyfannitutti) for the footprints `D_DO-35_SOD27_P5.08mm_Horizontal.kicad_mod` and `USB_C_GCT_USB4085.kicad_mod`. [The Creative Commons license for these is included here](LICENSE.CFTKB).
