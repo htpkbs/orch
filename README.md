@@ -34,6 +34,10 @@ The key layout might look something like this. (Thanks to [Keyboard Layout Edito
 
 These are just some notes on programming the ATmega32U4. [The datasheet is here](http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf).
 
+## Programming
+
+ISP headers are included in the "No Legs" Tag-Connect format. You need a Tag-Connect cable and retaining clip board to connect to it. For example, if you have an AVRISP mkII programmer, you need the ["No Legs" cable](https://www.tag-connect.com/product/tc2030-idc-nl) and the [retaining clip board](https://www.tag-connect.com/product/tc2030-retaining-clip-board-3-pack).
+
 ## Fuses
 
 Default values are:
@@ -87,7 +91,7 @@ Hex value is `99`.
 
 Hex value is `DD`.
 
-### Programming
+### Setting Fuse Values
 
 `avrdude` commands to set the fuse values with an AVRISP mkII programmer:
 
