@@ -96,9 +96,9 @@ Hex value is `DD`.
 `avrdude` commands to set the fuse values with an AVRISP mkII programmer:
 
 ```
-avrdude -p 32u4 -c avrispmkII -U efuse:w:0xF0:m
-avrdude -p 32u4 -c avrispmkII -U hfuse:w:0x99:m
-avrdude -p 32u4 -c avrispmkII -U lfuse:w:0xDD:m
+avrdude -p m32u4 -c avrispmkII -U efuse:w:0xF0:m
+avrdude -p m32u4 -c avrispmkII -U hfuse:w:0x99:m
+avrdude -p m32u4 -c avrispmkII -U lfuse:w:0xDD:m
 ```
 
 # Sublicenses
