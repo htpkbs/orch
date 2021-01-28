@@ -2222,10 +2222,6 @@ Text Label 3500 2800 0    50   ~ 0
 Col14
 Text Label 3500 4500 0    50   ~ 0
 Col15
-NoConn ~ 3500 4700
-NoConn ~ 3500 4800
-NoConn ~ 3500 4900
-NoConn ~ 3500 5000
 $Comp
 L Device:C C8
 U 1 1 603A0FBA
@@ -2420,4 +2416,12 @@ Wire Wire Line
 	13550 5150 14000 5150
 Text Notes 12000 4450 0    63   ~ 0
 RGB LEDs
+Text Label 3500 4700 0    50   ~ 0
+Row1
+Text Label 3500 4800 0    50   ~ 0
+Row2
+Text Label 3500 4900 0    50   ~ 0
+Row3
+Text Label 3500 5000 0    50   ~ 0
+Row4
 $EndSCHEMATC
