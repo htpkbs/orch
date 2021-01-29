@@ -93,7 +93,7 @@ Hex value is `DD`.
 
 ### Setting Fuse Values
 
-`avrdude` commands to set the fuse values with an AVRISP mkII programmer:
+avrdude commands to set the fuse values with an AVRISP mkII programmer:
 
 ```
 avrdude -p m32u4 -c avrispmkII -U efuse:w:0xF0:m
