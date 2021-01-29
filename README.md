@@ -101,6 +101,14 @@ avrdude -p m32u4 -c avrispmkII -U hfuse:w:0x99:m
 avrdude -p m32u4 -c avrispmkII -U lfuse:w:0xDD:m
 ```
 
+Note that the extended fuse will always show as `C0` with avrdude (despite the datasheet saying that the first four bits are unprogrammed/`1111`).
+
+You may need to erase the chip before you set the fuse values:
+
+```
+avrdude -p m32u4 -c avrispmkII -e
+```
+
 # Sublicenses
 
 * Thank you to [coseyfannitutti](https://github.com/coseyfannitutti) for the footprints `D_DO-35_SOD27_P5.08mm_Horizontal.kicad_mod` and `USB_C_GCT_USB4085.kicad_mod`. [The Creative Commons license for these is included here](LICENSE.CFTKB).
