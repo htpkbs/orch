@@ -1,6 +1,6 @@
 ## Overview
 
-The orch is a keyboard PCB.
+The orch is a keyboard PCB. Now on v2!
 
 It has:
 
@@ -11,14 +11,28 @@ It has:
 * An arrow key cluster
 * A function key column
 * USB-C
+* A rotary encoder
+* No stabilizers unless you want one for a 2U spacebar
+* Optional 2U spacebar or 2 1U keys
 
 I know the PCB routing is not great; I was in a rush.
 
 # Key Layout
 
-The key layout might look something like this. (Thanks to [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/) for the image.)
+The key layout looks like this. (Thanks to [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/) for the image.)
 
 ![Key layout](assets/layout.png)
+
+This is the corresponding data for pasting into Keyboard Layout Editor:
+
+```
+[{x:0.25,c:"#393b3b",t:"#9065c7",a:6,w:1.5},"Tab",{c:"#727474",t:"#c6c9c7",a:4,f:5},"Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]",{w:1.5},"|\n\\",{c:"#393b3b",x:0.25,t:"#c6c9c7",a:4,f:3},"Page\n\n\n\n\n\nUp"],
+[{t:"#689b34",a:6,w:1.75},"Control",{c:"#727474",t:"#c6c9c7",a:4,f:5},"A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{c:"#393b3b",t:"#689b34",a:6,f:3,w:1.75},"Function",{x:1,t:"#c6c9c7",a:4},"Page\n\n\n\n\n\nDown"],
+[{t:"#ee6d00",a:6,w:1.75},"Shift",{c:"#727474",t:"#c6c9c7",a:4,f:5},"Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{c:"#393b3b",t:"#ee6d00",a:6,f:3,w:1.25},"Shift",{x:2.5,t:"#dd1126"},"Code"],
+[{y:-0.75,x:13.25,t:"#c6c9c7",a:4,f:5},"&uarr;"],
+[{y:-0.25,x:0.5,t:"#ee6d00",a:6,f:3},"Fn",{t:"#0084c2"},"Ctrl","Alt",{t:"#dd1126",w:1.25},"Code",{t:"#0084c2"},"Code",{c:"#727474",t:"#000000",a:7},"","",{c:"#393b3b",t:"#0084c2",a:6},"Code",{t:"#dd1126",w:1.25},"Code",{t:"#0084c2"},"Alt","Ctrl",{x:3.5,t:"#dd1126"},"Code"],
+[{y:-0.75,x:12.25,t:"#c6c9c7",a:4,f:5},"&larr;","&darr;","&rarr;"]
+```
 
 # PCB Renders
 
@@ -108,6 +122,8 @@ You may need to erase the chip before you set the fuse values:
 ```
 avrdude -p m32u4 -c avrispmkII -e
 ```
+
+To-do: mention something about QMK `:production` flag that includes bootloader in resulting `.hex` file. Also confirm the above fuse values...
 
 # Sublicenses
 
