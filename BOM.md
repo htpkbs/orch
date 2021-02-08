@@ -16,5 +16,5 @@ J1 (the Tag-Connect ISP headers) and SW1-SW60 (the key switches) are not include
 | R2, R3 | 2 | 22R | https://www.digikey.com/en/products/detail/bourns-inc/CR0805-FX-22R0ELF/3784764 |
 | R4, R5 | 2 | 5.1k | https://www.digikey.com/en/products/detail/bourns-inc/CR0805-FX-5101ELF/3784995 |
 | SW61 | 1 | Reset | https://www.digikey.com/en/products/detail/c-k/KMR241NG-LFS/2176486 |
-| U1 | 1 | ATmega43U4-AU | https://www.digikey.com/en/products/detail/microchip-technology/ATMEGA32U4-AU/1914602 |
+| U1 | 1 | ATmega32U4-AU | https://www.digikey.com/en/products/detail/microchip-technology/ATMEGA32U4-AU/1914602 |
 | Y1 | 1 | 16MHz | https://www.digikey.com/en/products/detail/abracon-llc/ABM3-16-000MHZ-B2-T/675298 |
