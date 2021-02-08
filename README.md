@@ -40,6 +40,10 @@ This is the corresponding data for pasting into Keyboard Layout Editor:
 
 ![PCB back](assets/back.png)
 
+# Case
+
+Case files are in the [case](case) directory. Thanks to the [swillkb Plate & Case Builder](http://builder.swillkb.com/).
+
 # Schematic
 
 [There is a PDF of the schematic here](assets/schematic.pdf).
