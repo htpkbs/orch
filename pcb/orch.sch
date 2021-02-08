@@ -153,26 +153,19 @@ Wire Wire Line
 Wire Wire Line
 	8700 4000 8300 4000
 Wire Wire Line
-	8000 3700 7750 3700
-Wire Wire Line
-	7750 3700 7750 3600
-Wire Wire Line
 	8000 4000 7750 4000
-Wire Wire Line
-	7750 4000 7750 3700
-Connection ~ 7750 3700
 Wire Wire Line
 	8700 3700 8300 3700
 $Comp
 L power:GND #PWR05
 U 1 1 5F122095
-P 7750 3600
-F 0 "#PWR05" H 7750 3350 50  0001 C CNN
-F 1 "GND" H 7755 3427 50  0000 C CNN
-F 2 "" H 7750 3600 50  0001 C CNN
-F 3 "" H 7750 3600 50  0001 C CNN
-	1    7750 3600
-	-1   0    0    1   
+P 7750 4450
+F 0 "#PWR05" H 7750 4200 50  0001 C CNN
+F 1 "GND" H 7755 4277 50  0000 C CNN
+F 2 "" H 7750 4450 50  0001 C CNN
+F 3 "" H 7750 4450 50  0001 C CNN
+	1    7750 4450
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C3
@@ -2446,7 +2439,7 @@ F 3 "~" H 8050 2100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7900 1950 8050 1950
-Text Label 8050 2250 3    50   ~ 0
+Text Label 8050 2450 0    50   ~ 0
 Row3
 Text Label 7900 1750 0    50   ~ 0
 Col14
@@ -2554,4 +2547,13 @@ Text Label 3500 4600 0    50   ~ 0
 RotaryB
 Text Notes 7250 1250 0    63   ~ 0
 Rotary Encoder
+Wire Wire Line
+	8000 3700 7750 3700
+Wire Wire Line
+	7750 3700 7750 4000
+Connection ~ 7750 4000
+Wire Wire Line
+	7750 4000 7750 4450
+Wire Wire Line
+	8050 2250 8050 2450
 $EndSCHEMATC
