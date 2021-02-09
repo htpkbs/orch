@@ -15,8 +15,6 @@ It has:
 * No stabilizers unless you want one for a 2U spacebar
 * Optional 2U spacebar or 2 1U keys
 
-I know the PCB routing is not great; I was in a rush.
-
 # Key Layout
 
 The key layout looks like this. (Thanks to [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/) for the image.)
