@@ -40,7 +40,7 @@ This is the corresponding data for pasting into Keyboard Layout Editor:
 
 # Case
 
-[Case files are in the case directory](case). Thanks to the [swillkb Plate & Case Builder](http://builder.swillkb.com/). There are two bottom case files included. One of them has smaller holes that are meant for tapping (to secure the screws directly into the back case layer), and the other has "open" holes that an M2 screw will fit through (to secure the case together with nuts). The top case file still needs a hole added for the rotary encoder (the "switch" layer or the plate already has one). There are also two version of the switch layer, one with a logo and one without.
+[Case files are in the case directory](case). Thanks to the [swillkb Plate & Case Builder](http://builder.swillkb.com/). There are two bottom case files included. One of them has smaller holes that are meant for tapping (to secure the screws directly into the back case layer), and the other has "open" holes that an M2 screw will fit through (to secure the case together with nuts). The top case file still needs a hole added for the rotary encoder (the "switch" layer or the plate already has one). There are also two versions of the switch layer, one with a logo and one without.
 
 # Schematic
 
