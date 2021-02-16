@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "orch"
 Date ""
-Rev "v2"
+Rev "v2.1"
 Comp ""
 Comment1 ""
 Comment2 "https://github.com/htpkbs/orch/blob/main/LICENSE"
@@ -455,10 +455,10 @@ Wire Wire Line
 Text Label 2300 2100 2    50   ~ 0
 Reset
 $Comp
-L Device:R R2
+L Device:R R3
 U 1 1 6005B30E
 P 12700 2500
-F 0 "R2" V 12493 2500 50  0000 C CNN
+F 0 "R3" V 12493 2500 50  0000 C CNN
 F 1 "22R" V 12584 2500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 12630 2500 50  0001 C CNN
 F 3 "~" H 12700 2500 50  0001 C CNN
@@ -470,10 +470,10 @@ Wire Wire Line
 Text Label 12950 2500 0    50   ~ 0
 D-
 $Comp
-L Device:R R3
+L Device:R R2
 U 1 1 600600F3
 P 12700 2700
-F 0 "R3" V 12907 2700 50  0000 C CNN
+F 0 "R2" V 12907 2700 50  0000 C CNN
 F 1 "22R" V 12816 2700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 12630 2700 50  0001 C CNN
 F 3 "~" H 12700 2700 50  0001 C CNN
