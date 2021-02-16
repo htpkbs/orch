@@ -6,8 +6,8 @@ J1 (the Tag-Connect ISP headers) and SW1-SW60 (the key switches) are not include
 | --- | --- | --- | --- |
 | C1, C2 | 2 | 22pF | https://www.digikey.com/en/products/detail/avx-corporation/08055C220JAT2A/1602912 |
 | C3 | 1 | 4.7u | https://www.digikey.com/en/products/detail/avx-corporation/08056D475KAT2A/563526 |
-| C4-C7 | 4 | 0.1u | https://www.digikey.com/en/products/detail/avx-corporation/08053D104KAT2A/2345252 |
-| C8 | 1 | 1u | https://www.digikey.com/en/products/detail/avx-corporation/0805DC105KAT2A/11245462 |
+| C4-C13 | 4 | 0.1u | https://www.digikey.com/en/products/detail/avx-corporation/08053D104KAT2A/2345252 |
+| C14 | 1 | 1u | https://www.digikey.com/en/products/detail/avx-corporation/0805DC105KAT2A/11245462 |
 | D1-D60 | 60 | 1N4148 | https://www.digikey.com/product-detail/en/vishay-semiconductor-diodes-division/TZX3V6B-TR/TZX3V6B-TRGICT-ND/9601328 |
 | D61-D66 | 6 | SK6812 | https://www.digikey.com/en/products/detail/adafruit-industries-llc/1655/5154679 |
 | F1 | 1 | 100mA | https://www.digikey.com/en/products/detail/littelfuse-inc/0805L020YR/1212820 |
