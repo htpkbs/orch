@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name orch)(type Legacy)(uri ${KIPRJMOD}/orch.lib)(options "")(descr ""))
+  (lib (name orch-rescue)(type Legacy)(uri ${KIPRJMOD}/orch-rescue.lib)(options "")(descr ""))
 )

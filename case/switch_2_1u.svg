@@ -7,8 +7,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:version="1.0 (4035a4f, 2020-05-01)"
-   sodipodi:docname="ccc007c15cf2f8801e96e38ae798da2deaf5cefd_switch.svg"
+   inkscape:version="1.0.2 (e86c8708, 2021-01-15)"
+   sodipodi:docname="switch_2_1u.svg"
    id="svg967"
    version="1.1"
    viewBox="0.000 0.000 335.502 102.752"
@@ -33,11 +33,11 @@
      inkscape:window-y="25"
      inkscape:window-x="0"
      inkscape:cy="229.52231"
-     inkscape:cx="1120.9997"
+     inkscape:cx="1064.0527"
      inkscape:zoom="3.1169314"
      showgrid="false"
      id="namedview969"
-     inkscape:window-height="942"
+     inkscape:window-height="941"
      inkscape:window-width="1680"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0"
@@ -46,7 +46,8 @@
      objecttolerance="10"
      borderopacity="1"
      bordercolor="#666666"
-     pagecolor="#ffffff" />
+     pagecolor="#ffffff"
+     inkscape:document-rotation="0" />
   <polygon
      id="polygon833"
      style="fill:none;stroke-width:0.050000mm;stroke:black"
@@ -315,10 +316,9 @@
      id="polygon965"
      style="fill:none;stroke-width:0.050000mm;stroke:black"
      points="114.176,7.002 113.884,7.151 113.651,7.383 113.502,7.676 113.451,8.001 113.502,8.325 113.651,8.618 113.884,8.850 114.176,8.999 114.501,9.051 114.825,8.999 115.118,8.850 115.350,8.618 115.499,8.325 115.551,8.001 115.499,7.676 115.350,7.383 115.118,7.151 114.825,7.002 114.501,6.951" />
-  <circle
-     r="3.6479766"
-     cy="60.711502"
-     cx="293.87149"
-     id="path979"
-     style="fill:none;stroke:#000000;stroke-width:0.204047;stroke-opacity:1" />
+  <polygon
+     id="polygon873-0"
+     style="fill:none;stroke:#000000;stroke-width:0.05mm"
+     points="265.251,70.251 279.251,70.251 279.251,56.251 265.251,56.251 "
+     transform="matrix(0.88110918,0,0,0.85968061,53.988635,6.3358438)" />
 </svg>

@@ -100,7 +100,7 @@ F 3 "~" H 8150 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 P1
+L orch-rescue:USB_C_Receptacle_USB2.0-Connector P1
 U 1 1 5F152268
 P 11500 2600
 F 0 "P1" H 11000 2700 50  0000 C CNN
