@@ -513,7 +513,7 @@ Wire Wire Line
 	12550 2150 12850 2150
 Text Label 3500 2300 0    50   ~ 0
 MOSI
-Text Label 3800 2400 0    50   ~ 0
+Text Label 3500 2400 0    50   ~ 0
 MISO
 Text Label 3500 2200 0    50   ~ 0
 SCK
@@ -1449,7 +1449,7 @@ U 1 1 60171979
 P 13300 8750
 F 0 "SW48" V 13314 8878 60  0000 L CNN
 F 1 "MX-NoLED" V 13388 8878 20  0000 L CNN
-F 2 "orch:MX-1.25U-NoLED" H 12675 8725 60  0001 C CNN
+F 2 "orch:MX-1U-NoLED" H 12675 8725 60  0001 C CNN
 F 3 "" H 12675 8725 60  0001 C CNN
 	1    13300 8750
 	0    1    1    0   
@@ -2740,7 +2740,7 @@ Text Label 14350 6750 1    50   ~ 0
 Col14
 Text Label 14950 6750 1    50   ~ 0
 Col15
-Text Label 3500 2400 0    50   ~ 0
+Text Label 3800 2300 0    50   ~ 0
 Row1
 $Comp
 L orch:MX-NoLED SW9
@@ -2847,8 +2847,6 @@ Text Label 12250 2500 0    50   ~ 0
 USB_D-
 Text Label 3500 4800 0    50   ~ 0
 RGB
-Wire Wire Line
-	3500 2400 3800 2400
 $Comp
 L LED:SK6812 D76
 U 1 1 609BF441
@@ -3192,4 +3190,6 @@ $EndComp
 NoConn ~ 15400 5650
 Text Notes 11350 4850 0    63   ~ 0
 RGB LEDs
+Wire Wire Line
+	3500 2300 3800 2300
 $EndSCHEMATC

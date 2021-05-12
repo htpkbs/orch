@@ -24,12 +24,13 @@ The key layout looks like this. (Thanks to [Keyboard Layout Editor](http://www.k
 This is the corresponding data for pasting into Keyboard Layout Editor:
 
 ```
-[{x:0.25,c:"#393b3b",t:"#9065c7",a:6,w:1.5},"Tab",{c:"#727474",t:"#c6c9c7",a:4,f:5},"Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]",{w:1.5},"|\n\\",{c:"#393b3b",x:0.25,t:"#c6c9c7",a:4,f:3},"Page\n\n\n\n\n\nUp"],
-[{t:"#689b34",a:6,w:1.75},"Control",{c:"#727474",t:"#c6c9c7",a:4,f:5},"A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{c:"#393b3b",t:"#689b34",a:6,f:3,w:1.75},"Function",{x:1,t:"#c6c9c7",a:4},"Page\n\n\n\n\n\nDown"],
-[{t:"#ee6d00",a:6,w:1.75},"Shift",{c:"#727474",t:"#c6c9c7",a:4,f:5},"Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{c:"#393b3b",t:"#ee6d00",a:6,f:3,w:1.25},"Shift",{x:2.5,t:"#dd1126"},"Code"],
-[{y:-0.75,x:13.25,t:"#c6c9c7",a:4,f:5},"&uarr;"],
-[{y:-0.25,x:0.5,t:"#ee6d00",a:6,f:3},"Fn",{t:"#0084c2"},"Ctrl","Alt",{t:"#dd1126",w:1.25},"Code",{t:"#0084c2"},"Code",{c:"#727474",t:"#000000",a:7},"","",{c:"#393b3b",t:"#0084c2",a:6},"Code",{t:"#dd1126",w:1.25},"Code",{t:"#0084c2"},"Alt","Ctrl",{x:3.5,t:"#dd1126"},"Code"],
-[{y:-0.75,x:12.25,t:"#c6c9c7",a:4,f:5},"&larr;","&darr;","&rarr;"]
+[{x:0.75,c:"#3000ba",t:"#00d1ee"},"~\n`",{f:5},"!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=",{c:"#030a8c",t:"#ee009d",a:6,f:3,w:1.5},"Backspace",{x:0.25},"Delete"],
+[{x:0.25,w:1.5},"Tab",{c:"#3000ba",t:"#00d1ee",a:4,f:5},"Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]",{w:1.5},"|\n\\",{x:0.25,c:"#030a8c",t:"#ee009d",a:6,f:3},"PgUp"],
+[{w:1.75},"Control",{c:"#3000ba",t:"#00d1ee",a:4,f:5},"A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{c:"#030a8c",t:"#ee009d",a:6,f:3,w:1.75},"Enter",{x:1},"PgDn"],
+[{w:1.75},"Shift",{c:"#3000ba",t:"#00d1ee",a:4,f:5},"Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{c:"#030a8c",t:"#ee009d",a:6,f:3},"Shift",{x:2.75,a:7},""],
+[{y:-0.75,x:13.25,c:"#ee009d",t:"#030a8c",a:4,f:5},"&uarr;"],
+[{y:-0.25,x:0.5,c:"#030a8c",t:"#ee009d",a:6,f:3},"Fn","Ctrl","Alt",{w:1.25},"Code","Lower",{c:"#3000ba",t:"#000000",a:7},"","",{c:"#030a8c",t:"#ee009d",a:6},"Raise",{w:1.25},"Code","Alt","Ctrl",{x:3.5,a:7},""],
+[{y:-0.75,x:12.25,c:"#ee009d",t:"#030a8c",a:4,f:5},"&larr;","&darr;","&rarr;"]
 ```
 
 # PCB Renders
@@ -40,7 +41,7 @@ This is the corresponding data for pasting into Keyboard Layout Editor:
 
 # Case
 
-[Case files are in the case directory](case). Thanks to the [swillkb Plate & Case Builder](http://builder.swillkb.com/). There are two bottom case files included. One of them has smaller holes that are meant for tapping (to secure the screws directly into the back case layer), and the other has "open" holes that an M2 screw will fit through (to secure the case together with nuts). The top case file still needs a hole added for the rotary encoder (the "switch" layer or the plate already has one). There are also two versions of the switch layer, one with a logo and one without.
+[Case files are in the case directory](case). Thanks to the [swillkb Plate & Case Builder](http://builder.swillkb.com/). There are two bottom case files included. One of them has smaller holes that are meant for tapping (to secure the screws directly into the back case layer), and the other has "open" holes that an M2 screw will fit through (to secure the case together with nuts). The top case file still needs a hole added for the rotary encoder (the "switch" layer or the plate already has one). The closed layer will also require a hole to be drilled through about 3 mm of material for the USB-C connector.
 
 # Schematic
 
