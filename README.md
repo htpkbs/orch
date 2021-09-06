@@ -131,7 +131,7 @@ The first time flashing should be done with a programmer like the AVRISP mkII an
 qmk compile -kb orch -km default:production
 ```
 
-I've had luck setting a custom bitclock setting (`-B`)for the initial flash when using the mkII, but this may not matter. For example:
+I've had luck setting a custom bitclock setting (`-B`) for the initial flash when using the mkII, but this may not matter. For example:
 
 ```
 avrdude -p m32u4 -c avrispmkII -U flash:w:orch_default_production.hex:i -B 154.37
