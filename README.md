@@ -40,7 +40,7 @@ This is the corresponding data for pasting into Keyboard Layout Editor:
 
 # Case
 
-[Case files are in the case directory](case). Thanks to the [swillkb Plate & Case Builder](http://builder.swillkb.com/). There are two bottom case files included. One of them has smaller holes that are meant for tapping (to secure the screws directly into the back case layer), and the other has "open" holes that an M2 screw will fit through (to secure the case together with nuts). The top case file still needs a hole added for the rotary encoder (the "switch" layer or the plate already has one). There are also two versions of the switch layer, one with a logo and one without.
+[Case files are in the case directory](case) and include a cutout for the rotary encoder. The "closed" layer requires some dremeling or filing to make room for the USB connector. Thanks to the [swillkb Plate & Case Builder](http://builder.swillkb.com/). There are two bottom case files included. One of them has smaller holes that are meant for tapping (to secure the screws directly into the back case layer), and the other has "open" holes that an M2 screw will fit through (to secure the case together with nuts).
 
 # Schematic
 
@@ -125,7 +125,19 @@ You may need to erase the chip before you set the fuse values:
 avrdude -p m32u4 -c avrispmkII -e
 ```
 
-To-do: mention something about QMK `:production` flag that includes bootloader in resulting `.hex` file. Also confirm the above fuse values...
+The first time flashing should be done with a programmer like the AVRISP mkII and you should compile QMK to include the bootloader in the firmware file (using `:production`). I have [a fork of the `qmk_firmware` repository here](https://github.com/htpkbs/qmk_firmware/tree/orch) that I may or may not try to get merged at some point.) To compile the `orch` branch with the QMK CLI:
+
+```
+qmk compile -kb orch -km default:production
+```
+
+I've had luck setting a custom bitclock setting (`-B`)for the initial flash when using the mkII, but this may not matter. For example:
+
+```
+avrdude -p m32u4 -c avrispmkII -U flash:w:orch_default_production.hex:i -B 154.37
+```
+
+You should now be able to flash regular (non-`:production`) firmware that doesn't include the bootloader over USB using QMK Tookbox.
 
 # Sublicenses
 
