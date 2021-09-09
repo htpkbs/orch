@@ -1,6 +1,6 @@
 # Overview
 
-The orch is a keyboard PCB. Now on v2!
+The orch is a keyboard PCB.
 
 It has:
 
